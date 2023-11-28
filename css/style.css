@@ -121,6 +121,65 @@ input{
     
 }
 
+/* instrucciones de compra */
+.about{
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+  padding: 50px;
+}
+
+.subtitulo{
+    color: #000024;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.parrafo{
+    line-height: 1.7;
+}
+
+.cont-compra{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+.cont-ind{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+.title2{
+    color: #000024;
+}
+
+.icon{
+    width: 40px;
+    
+}
+
+.button{
+    background:  #000024;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    }
+    
+
+
+
+
+
 footer {
     background: #000024;
     padding: 20px 0 /*50 0 20 0 */;
